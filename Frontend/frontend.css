@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+p{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 5px;
+}
+
+.buttons{
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.pen{
+    margin-top: 2rem;
+}
+
+#mail{
+    width: 100%;
+}
+
+.submit{
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.reg{
+    height: 40px;
+    width: 60px;
+    margin-right: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.get{
+    height: 40px;
+    width: 60px;
+    margin-left: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
