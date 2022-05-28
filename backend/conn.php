@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
 $user = "Rebel";
-$password = "kingnii100";
+$password = "";
 $dbname = "bookstore";
 
 //connect to server
